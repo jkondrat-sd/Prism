@@ -21,7 +21,7 @@ services:
     restart: unless-stopped
 
   kafka:
-    image: bitnami/kafka:3.7
+    image: soldevelo/kafka:3.7
     container_name: prism-kafka
     ports:
       - "9092:9092"   # External (host) access
